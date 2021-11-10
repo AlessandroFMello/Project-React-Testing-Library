@@ -70,7 +70,7 @@ Este repositório já contém uma aplicação React criada e configurada. Após 
 ## Data de entrega
 
   - Serão `2` dias de projeto.
-  - Data de entrega para avaliação final do projeto: `15/11/2021 - 14:00h`.
+  - Data de entrega para avaliação final do projeto: `16/11/2021 - 14:00h`.
 
 # Instruções para entregar seu projeto
 
