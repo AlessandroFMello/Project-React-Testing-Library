@@ -8,7 +8,6 @@ describe('Testes para o componente <About.js />', () => {
     renderWithRouter(<About />);
   });
   it('Testa se a página contem um h2 com o texto About Pokédex', () => {
-
     const testH2 = screen.getByRole(
       'heading',
       {
