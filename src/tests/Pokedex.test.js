@@ -52,7 +52,7 @@ describe('Teste o componente <Pokedex.js />', () => {
     });
   });
 
-  it('Teste se a Pokédex tem os botões de filtro.', () => {
+  it('Testa se a Pokédex tem os botões de filtro.', () => {
     const filterButton = screen.getAllByTestId('pokemon-type-button');
     const types = ['Electric', 'Fire', 'Bug', 'Poison', 'Psychic', 'Normal', 'Dragon'];
 
@@ -61,7 +61,7 @@ describe('Teste o componente <Pokedex.js />', () => {
     filterButton.forEach((buttonEl, i) => expect(buttonEl).toHaveTextContent(types[i]));
   });
 
-  it('Teste se a Pokédex contém um botão para resetar o filtro', () => {
+  it('Testa se a Pokédex contém um botão para resetar o filtro', () => {
     const buttonReset = screen.getByRole('button', {
       name: /all/i,
     });
